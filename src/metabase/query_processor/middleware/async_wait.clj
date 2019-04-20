@@ -47,7 +47,10 @@
           output-chan    (semaphore-channel/do-after-receiving-permit semaphore-chan
                            qp query respond raise canceled-chan)]
       (a/go
-        (respond (a/<! output-chan))
+        ;; result might be nil if `output-chan` gets prematurely closed. If there's no result there's no need to
+        ;; finish the `respond` post-processing
+        (when-let [result (a/<! output-chan)]
+          (respond result))
         (a/close! output-chan))
       (a/go
         (when (a/<! canceled-chan)
