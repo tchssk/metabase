@@ -868,7 +868,7 @@ msgstr "このユーザを管理者にする"
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:32
 msgid "All users belong to the {0} group and can't be removed from it. Setting permissions for this group is a great way to\n"
 "make sure you know what new Metabase users will be able to see."
-msgstr "全てのユーザーは{0}グループに属しており、そのグループから削除することはできません。 このグループの権限を設定することで、新しいMetabseユーザーの閲覧可能範囲を確認することができます。"
+msgstr "全てのユーザーは{0}グループに属しており、そのグループから削除することはできません。 このグループの権限を設定することで、新しいMetabaseユーザーの閲覧可能範囲を確認することができます。"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:41
 msgid "This is a special group whose members can see everything in the Metabase instance, and who can access and make changes to the\n"
@@ -1212,11 +1212,11 @@ msgstr "管理者にはMetabaseの全データへのアクセス権限があり�
 
 #: frontend/src/metabase/admin/permissions/selectors.js:67
 msgid "Every Metabase user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
-msgstr "全てのMetabseユーザーは、全ユーザーグループに属します。 グループへのアクセスを制限またはブロックする場合は、全ユーザーグループのアクセスレベルが同等かそれ以下であることをご確認ください。"
+msgstr "全てのMetabaseユーザーは、全ユーザーグループに属します。 グループへのアクセスを制限またはブロックする場合は、全ユーザーグループのアクセスレベルが同等かそれ以下であることをご確認ください。"
 
 #: frontend/src/metabase/admin/permissions/selectors.js:69
 msgid "MetaBot is Metabase's Slack bot. You can choose what it has access to here."
-msgstr "MetaBotはMetabseのSlackボットです。 ここにアクセスできるものを選択できます。"
+msgstr "MetaBotはMetabaseのSlackボットです。 ここにアクセスできるものを選択できます。"
 
 #: frontend/src/metabase/admin/permissions/selectors.js:119
 msgid "The \"{0}\" group may have access to a different set of {1} than this group, which may give this group additional access to some {2}."
@@ -1462,7 +1462,7 @@ msgstr "MetaBotのSlack Botユーザーを作成する"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:261
 msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"metabase_files\" channel in Slack. Metabase needs this to upload graphs."
-msgstr "名前を付けて{0}をクリックします。 ボットAPIトークンをコピーし、下のフィールドに貼り付けます。 完了したら、Slackで \"metabase_files\"チャンネルを作成します。 これはMetabseでグラフをアップロードするために必要な作業です。"
+msgstr "名前を付けて{0}をクリックします。 ボットAPIトークンをコピーし、下のフィールドに貼り付けます。 完了したら、Slackで \"metabase_files\"チャンネルを作成します。 これはMetabaseでグラフをアップロードするために必要な作業です。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:90
 msgid "You're running Metabase {0} which is the latest and greatest!"
@@ -1470,7 +1470,7 @@ msgstr "お使いのMetabase {0}は最新です"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:99
 msgid "Metabase {0} is available.  You're running {1}"
-msgstr "Metabse {0}が利用可能です。現在{1}を利用中です。"
+msgstr "Metabase {0}が利用可能です。現在{1}を利用中です。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:112
 #: frontend/src/metabase/components/form/StandardForm.jsx:69
@@ -1590,11 +1590,11 @@ msgstr "プレミアム埋め込みが有効化された"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:26
 msgid "Enter the token you bought from the Metabase Store"
-msgstr "Metabse Storeから購入したトークンを入力する"
+msgstr "Metabase Storeから購入したトークンを入力する"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:53
 msgid "Premium embedding lets you disable \"Powered by Metabase\" on your embedded dashboards and questions."
-msgstr "プレミアム埋め込みを利用すると、埋め込みされたダッシュボードや質問の「Powered by Metabse」という表示を無効化することができます"
+msgstr "プレミアム埋め込みを利用すると、埋め込みされたダッシュボードや質問の「Powered by Metabase」という表示を無効化することができます"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:60
 msgid "Buy a token"
@@ -6186,7 +6186,7 @@ msgstr "クリックするだけ"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:95
 msgid "Welcome to Metabase"
-msgstr "Metabseへようこそ"
+msgstr "Metabaseへようこそ"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:96
 msgid "Looks like everything is working. Now let’s get to know you, connect to your data, and start finding you some answers!"
@@ -6202,7 +6202,7 @@ msgstr "準備ができました！"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:156
 msgid "Take me to Metabase"
-msgstr "Metabseを使い始める"
+msgstr "Metabaseを使い始める"
 
 #: frontend/src/metabase/setup/components/UserStep.jsx:155
 msgid "What should we call you?"
@@ -7769,11 +7769,11 @@ msgstr "Metabaseをシャットダウン中..."
 
 #: src/metabase/core.clj
 msgid "Metabase Shutdown COMPLETE"
-msgstr "Metabseのシャットダウンが完了しました"
+msgstr "Metabaseのシャットダウンが完了しました"
 
 #: src/metabase/core.clj
 msgid "Starting Metabase version {0} ..."
-msgstr "Metabseバージョン{0}を起動中..."
+msgstr "Metabaseバージョン{0}を起動中..."
 
 #: src/metabase/core.clj
 msgid "System timezone is ''{0}'' ..."
@@ -7782,7 +7782,7 @@ msgstr "システムタイムゾーンは\"{0}\"です"
 #. startup database.  validates connection & runs any necessary migrations
 #: src/metabase/core.clj
 msgid "Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
-msgstr "Metabse DBを移動設定中。これには時間がかかることがあります。"
+msgstr "Metabase DBを移動設定中。これには時間がかかることがあります。"
 
 #: src/metabase/core.clj
 msgid "Looks like this is a new installation ... preparing setup wizard"
@@ -7802,7 +7802,7 @@ msgstr "埋め込みJetty Webserverをシャットダウン中"
 
 #: src/metabase/core.clj
 msgid "Starting Metabase in STANDALONE mode"
-msgstr "MetabseをSTANDALONEモードで起動中"
+msgstr "MetabaseをSTANDALONEモードで起動中"
 
 #: src/metabase/core.clj
 msgid "Metabase Initialization FAILED"
@@ -8449,11 +8449,11 @@ msgstr "Metabaseの利用可能なバージョンに関する情報"
 
 #: src/metabase/public_settings.clj
 msgid "The name used for this instance of Metabase."
-msgstr "Metabseのこのインスタンスに使用されている名前"
+msgstr "Metabaseのこのインスタンスに使用されている名前"
 
 #: src/metabase/public_settings.clj
 msgid "The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
-msgstr "このMetabseインスタンスのベースURL、例：\"http://metabase.my-company.com\""
+msgstr "このMetabaseインスタンスのベースURL、例：\"http://metabase.my-company.com\""
 
 #: src/metabase/public_settings.clj
 msgid "The default language for this Metabase instance."
@@ -8469,7 +8469,7 @@ msgstr "問題が発生した場合に、ユーザーが参照すべきメール
 
 #: src/metabase/public_settings.clj
 msgid "Enable the collection of anonymous usage data in order to help Metabase improve."
-msgstr "Metabseのサービス向上のため、匿名の使用状況データの収集を許可する。"
+msgstr "Metabaseのサービス向上のため、匿名の使用状況データの収集を許可する。"
 
 #: src/metabase/public_settings.clj
 msgid "The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
